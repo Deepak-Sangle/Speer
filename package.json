@@ -1,16 +1,13 @@
 {
-  "name": "Speer",
+  "name": "speer",
   "version": "1.0.0",
-  "description": "Deepak Multi Services",
+  "description": "Speer Assement for Backend Developer Role",
   "main": "Back.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app.js"
+    "start": "node app.js",
+    "test": "jest"
   },
-  "keywords": [
-    "Speer"
-  ],
-  "author": "Sangul",
+  "author": "Deepak",
   "license": "ISC",
   "dependencies": {
     "bcryptjs": "^2.4.3",
@@ -20,5 +17,9 @@
     "jsonwebtoken": "^9.0.0",
     "mongoose": "^6.2.6",
     "nodemon": "^2.0.15"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^6.3.3"
   }
 }

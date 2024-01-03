@@ -31,12 +31,12 @@ router.get('/', isTokenValid, async (req,res)=> {
 
     const id = req.id;
 
-	Note.find({
-		$or: [
-			{ createdBy: id },					// Check my notes
-			{ sharedTo: { $in: [id] } } 		// Check shared notes
-		]
-	})
+		Note.find({
+			$or: [
+				{ createdBy: id },					    // Check my notes
+				{ sharedTo: { $in: [id] } } 		// Check shared notes
+			]
+		})
         .then((result) => {
             return res.status(200).send({data : result, success : true});
         })

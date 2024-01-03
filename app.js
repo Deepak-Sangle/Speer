@@ -38,3 +38,5 @@ app.use('/api', require('./routes/query-search'));
 app.listen(PORT, (req,res)=>{
     console.log(`Listening to the port ${PORT}`);
 });
+
+module.exports = app;

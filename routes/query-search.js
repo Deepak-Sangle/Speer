@@ -11,7 +11,6 @@ router.get('/search', isTokenValid, async (req,res)=> {
 
     const id = req.id;
 	const queryParam = req.query.q;
-	console.log({queryParam});
 
 	Note.find({
         $text: {
