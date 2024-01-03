@@ -1,5 +1,5 @@
 {
-  "name": "dms",
+  "name": "Speer",
   "version": "1.0.0",
   "description": "Deepak Multi Services",
   "main": "Back.js",
@@ -8,15 +8,13 @@
     "start": "node app.js"
   },
   "keywords": [
-    "DMS"
+    "Speer"
   ],
   "author": "Sangul",
   "license": "ISC",
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "cookie-parser": "^1.4.6",
-    "cors": "^2.8.5",
-    "crypto": "^1.0.1",
     "dotenv": "^16.0.0",
     "express-rate-limit": "^7.1.5",
     "jsonwebtoken": "^9.0.0",
